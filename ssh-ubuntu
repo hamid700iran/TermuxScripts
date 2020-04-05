@@ -1,0 +1,1 @@
+for ((i=40; i<=255; i++));do ssh -o ConnectTimeout=1 patricia@192.168.43."$i"; done
